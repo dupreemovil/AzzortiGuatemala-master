@@ -106,9 +106,8 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class Http {
     private String TAG = "Http-->";
-    //String baseURL="https://alcor2bol.azzorti.net/azzortiWS/";
-    String baseURL = "https://alcor.azzorti.bo/azzortiWS/";
-    //String baseURL = "https://alcor.dupree.co/dupreeWS/";
+    String baseURL="alcor2gua.azzorti.co";
+    //String baseURL = "https://alcor.azzorti.gt/azzortiWS/";
     Context myContext;
 
     Retrofit retrofit;
