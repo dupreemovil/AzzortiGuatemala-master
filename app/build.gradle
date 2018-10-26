@@ -6,7 +6,7 @@ android {
     compileSdkVersion 26
     buildToolsVersion '28.0.2'
     defaultConfig {
-        applicationId 'com.dupreincabolivia.dupree'
+        applicationId 'com.azzortiguatemala.dupree'
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1

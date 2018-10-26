@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
@@ -7,64 +12,244 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aaeec2ae-f70a-4f06-9171-ed5274ae2b0b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/AzzortiGuatemala-master.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_26_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_26_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_26_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_26_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_26_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_26_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_26_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_26_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_instrumentation_1_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_instrumentation_1_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_26_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_26_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_26_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_26_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_26_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_26_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_26_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_26_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_26_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_26_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_26_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_26_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_26_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_26_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_26_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_26_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_2_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_2_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_2_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_2_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_exposed_instrumentation_api_publish_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_exposed_instrumentation_api_publish_0_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_rules_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_rules_0_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_0_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_0_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_26_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_26_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_daimajia_slider_library_1_1_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_daimajia_slider_library_1_1_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_stetho_stetho_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_stetho_stetho_1_5_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_getkeepsafe_relinker_relinker_1_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_getkeepsafe_relinker_relinker_1_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_dimorinny_floating_text_button_0_0_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_dimorinny_floating_text_button_0_0_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_jakob_grabner_Circle_Progress_View_v1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_jakob_grabner_Circle_Progress_View_v1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_jrvansuita_PickImage_2_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_jrvansuita_PickImage_2_2_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_10_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_10_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_10_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_10_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_10_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_10_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_10_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_10_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_impl_10_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_impl_10_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_auth_10_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_auth_10_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_10_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_10_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_core_10_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_core_10_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_10_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_10_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_connection_10_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_database_connection_10_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_10_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_10_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_10_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_10_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_uphyca_stetho_realm_2_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_uphyca_stetho_realm_2_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__de_hdodenhof_circleimageview_2_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__de_hdodenhof_circleimageview_2_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_realm_android_adapters_2_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_realm_android_adapters_2_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__io_realm_realm_android_library_2_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__io_realm_realm_android_library_2_2_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__me_biubiubiu_justifytext_library_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__me_biubiubiu_justifytext_library_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__pub_devrel_easypermissions_0_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__pub_devrel_easypermissions_0_3_0.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/dupreincabolivia/dupree/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/CatalogoViewerActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/FullscreenActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/ImageZoomActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/MenuActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/PDFActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_adapters/MH_AdapterRealm_Catalogo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_adapters/MH_AdapterSlider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_adapters/MH_Adapter_Autocomplete.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_adapters/MH_Adapter_Bandeja.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_adapters/MH_Adapter_Cart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_adapters/MH_Adapter_Catalogo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_adapters/MH_Adapter_Catalogo_Premios.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_adapters/MH_Adapter_Factura.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_adapters/MH_Adapter_Faltantes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_adapters/MH_Adapter_ListPre.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_adapters/MH_Adapter_Offers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_adapters/MH_Adapter_Pagos_Realiz.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_adapters/MH_Adapter_PanelGte.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_adapters/MH_Adapter_Redimir.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_adapters/MH_Adapter_Redimir2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_adapters/MH_Adapter_Retenidos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_adapters/MH_Adapter_SeguimientoPQR.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_adapters/MH_Adapter_Tracking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_adapters/MH_Adapter_cdr.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_adapters/MH_Adapter_incentivo_referido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_adapters/MH_Adapter_puntos_asesora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_adapters/MH_PagerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_adapters/MH_PagerAdapter_Incorporacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_adapters/MH_PagerAdapter_Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_adapters/MH_PagerAdapter_PanelAsesora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_adapters/MH_PagerAdapter_Pedidos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_adapters/ProfileViewPagerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_based_realm/BaseApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_based_realm/DM_Catalogo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_based_realm/DM_List_Catalogo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_based_realm/DM_List_Ofertas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_based_realm/MyApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_data_db/StaticData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_dialogs/DateDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_dialogs/ListCity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_dialogs/ListDpto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_dialogs/ListString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_dialogs/ListString_Check.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_dialogs/ListString_Radio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_dialogs/MH_Dialogs_Barrio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_dialogs/MH_Dialogs_Input.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_dialogs/MH_Dialogs_Login.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_dialogs/MH_Dialogs_Termins.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_dialogs/MH_Dialogs_Volante.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_dialogs/SimpleDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_dialogs/SimpleDialog3Button.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_dialogs/SimpleDialog_01Button.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_firebase/ConstantsFirebase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_firebase/MH_ManagerNotificacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_firebase/MyFirebaseInstanceIDService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_firebase/MyFirebaseMessagingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_login/AuthFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_login/CodeFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_login/ForgotFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_login/PasswordFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_main/CatalogosAdvanceFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_main/CatalogosFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_main/ContactFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_main/MainFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_main/NewPreinsciptionFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_main/RegisterAsesoraFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_main/RegisterAsesoraFragment_NEW.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_menu/Bandeja_Entrada_Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_menu/Catalogo_Premios_Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_menu/Config_ModPerfil_Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_menu/Incentivos_ConsultaPtos_Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_menu/Incentivos_Redimir_Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_menu/Incentivos_Referido_Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_menu/Incorp_Todos_Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_menu/Panel_Asesora_Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_menu/Panel_Gerente_Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_menu/Pedidos_EdoPedido_Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_menu/Pedidos_Faltantes_Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_menu/Pedidos_Hacer_Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_menu/Reporte_CDR_Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_menu/Reporte_CupoSaldoConf_Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_menu/Reporte_Factura_Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_menu/Reporte_Pagos_Realizados_Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_menu/Reporte_Retenidos_Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_menu/Reporte_SegPetQueRec_Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_menu/Servicios_PagosOnLine_Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_menu/Servicios_PetQueRec_Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_menu/incorporaciones/Incorp_ListPre_Fragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_menu/incorporaciones/InscripcionFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_menu/incorporaciones/InscripcionFragment_NEW.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_menu/panel_asesoras/FaltantesAsesoraFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_menu/panel_asesoras/TrackingFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_menu/pedidos/CartFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_menu/pedidos/OffersFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_fragments_menu/pedidos/ProductsFragment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_hardware/Camera.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_http/AddCookiesInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_http/ConnectivityInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_http/Http.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_http/NetworkUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_http/NoConnectivityException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_http/ReceivedCookiesInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_interface_api/iAuth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_interface_api/iBanners.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_interface_api/iBarrios.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_interface_api/iFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_interface_api/iReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_local_data/Data.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_required_api/ListBoolean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_required_api/Referencia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_required_api/RequiredApprovePreIns.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_required_api/RequiredAuth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_required_api/RequiredCampana.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_required_api/RequiredCode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_required_api/RequiredConfirmaPedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_required_api/RequiredIdMessaage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_required_api/RequiredIdenty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_required_api/RequiredIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_required_api/RequiredInscription.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_required_api/RequiredInscription_NEW.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_required_api/RequiredListPre.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_required_api/RequiredNewPwd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_required_api/RequiredRefreshToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_required_api/RequiredRegister.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_required_api/RequiredRegister_NEW_2018.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_required_api/RequiredRegister_NewAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_required_api/RequiredTermins.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_required_api/RequiredTerminsGerente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_required_api/RequiredUsuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_required_api/RequiredValidateRef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_required_api/Required_IdMessages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/Barrio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/CDR.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/Campana.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/Catalogo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/CatalogoList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/CatalogoPremiosList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/Ciudad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/CupoSaldoConf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/Departamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/DetalleProductos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/Factura.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/Faltante.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ImgBanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/IncentivoRef.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ListPremios.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ListaCDR.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ListaOfertas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ListaPagos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ListaProd_Catalogo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ListaProductos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ListaPuntos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ListaReferidos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/Oferta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/PQR.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/Pagosrealizados.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/PanelAsesora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/PanelGteDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/PanelGteListDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/Paqueton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/PaquetonesByCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/Perfil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/Preinscripcion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/Premios.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ProductoSend.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/Productos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ProductosPorTipo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/PtosByCamp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/PtosResume.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/Raise.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/RequiredLiquidar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/RequiredRedimirPremios.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ResponseAuth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ResponseBandeja.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ResponseBanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ResponseBarrio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ResponseCDR.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ResponseCampana.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ResponseCatalogo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ResponseCupoSaldoConf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ResponseEstadoPedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ResponseFactura.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ResponseFaltantes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ResponseGeneric.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ResponseIdenty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ResponseLiquida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ResponseListPreinscripcion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ResponsePQR.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ResponsePagos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ResponsePanelAsesora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ResponsePanelGte.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ResponsePerfil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ResponseProd_Catalogo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ResponsePuntosAsesora.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ResponseRedimir.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ResponseReferidos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ResponseRetenidos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ResponseUrlCatalogos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ResponseVersion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ResultEdoPedido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/ResumePuntos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/Retenido.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/SendPremios.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/TipoVia.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/Tracking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/UrlCatalogo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_response_api/mPerfil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_utilities/CustomViewPager_DisableSwipe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_utilities/DownloadFileAsyncTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_utilities/ImageZoomActivity_Scroll.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_utilities/MyDialoges.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_utilities/PinchZoomImageView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_utilities/ProcessImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_utilities/ProgressDialogHorizontal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_utilities/Validate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_utilities/mPreferences.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_fullscreen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_fullscreen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_image_zoom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_image_zoom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/adapter_catalogo_premios.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/adapter_catalogo_premios.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_bar_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/content_menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/content_menu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_auth.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_auth.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_catalogo_premios.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_catalogo_premios.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_incorp_todos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_incorp_todos.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_inscripcion_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_inscripcion_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_new_preinsciption.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_new_preinsciption.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pedidos_hacer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_pedidos_hacer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/dupreincabolivia/dupree/ExampleUnitTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -85,6 +270,84 @@
         <projects_view />
       </state>
     </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1037">
+              <caret line="112" column="42" selection-start-line="112" selection-start-column="36" selection-end-line="112" selection-end-column="42" />
+              <folding>
+                <element signature="e#1472#1490#0" expanded="true" />
+                <element signature="e#3401#3419#0" expanded="true" />
+                <element signature="e#3676#3705#0" expanded="true" />
+                <element signature="e#4393#4411#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="local.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/local.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proguard-rules.pro" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/proguard-rules.pro">
+          <provider selected="true" editor-type-id="text-editor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gradle-wrapper.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>AZZ</find>
+      <find>com.dupreincabolivia.dupree</find>
+      <find>azzort</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>com.azzortiguatemala.dupree</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\david.neira\Documents\android-studio\AzzortiGuatemala-master\app</dir>
+      <dir>C:\Users\david.neira\Documents\android-studio\AzzortiGuatemala-master\app\src\main\java\com\dupreincabolivia\dupree</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -2403,6 +2666,14 @@
       </map>
     </option>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_http/Http.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="4" />
     <option name="y" value="24" />
@@ -2426,6 +2697,20 @@
             <path>
               <item name="AzzortiGuatemala-master" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="AzzortiGuatemala-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
+            </path>
+            <path>
+              <item name="AzzortiGuatemala-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="AzzortiGuatemala-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
@@ -2589,6 +2874,14 @@
       <option name="presentableId" value="Default" />
       <updated>1540559015296</updated>
     </task>
+    <task id="LOCAL-00001" summary="App movil guatemala">
+      <created>1540561742742</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540561742742</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2602,21 +2895,21 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50061125" side_tool="true" visible="true" weight="0.32949308" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49938875" visible="true" weight="0.32949308" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Logcat" />
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" sideWeight="0.49938875" visible="true" weight="0.32949308" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Build" sideWeight="0.49938875" weight="0.32949308" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Device File Explorer" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -2627,6 +2920,65 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="App movil guatemala" />
+    <option name="LAST_COMMIT_MESSAGE" value="App movil guatemala" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dupreincabolivia/dupree/mh_http/Http.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-275">
+          <caret line="118" column="68" selection-start-line="118" selection-start-column="68" selection-end-line="118" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="112" column="42" selection-start-line="112" selection-start-column="36" selection-end-line="112" selection-end-column="42" />
+          <folding>
+            <element signature="e#1472#1490#0" expanded="true" />
+            <element signature="e#3401#3419#0" expanded="true" />
+            <element signature="e#3676#3705#0" expanded="true" />
+            <element signature="e#4393#4411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/proguard-rules.pro">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state />
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
