@@ -25,14 +25,14 @@
                 android:src="@drawable/logo_zonngo_new"/-->
 
             <TextView
+                android:id="@+id/toolbar_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:textColor="@color/background"
-                android:textStyle="bold"
-                android:text="@string/dupree_cap"
                 android:layout_gravity="center"
-                android:id="@+id/toolbar_title" />
+                android:text="@string/dupree_cap"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
         </android.support.v7.widget.Toolbar>
 </android.support.design.widget.AppBarLayout>

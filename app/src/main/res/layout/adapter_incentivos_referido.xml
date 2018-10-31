@@ -14,52 +14,52 @@
     <android.support.v7.widget.CardView
 
         android:id="@+id/cardViewBackGround"
-        app:cardBackgroundColor="@color/transp_azulDupree"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_margin="2.5dp"
+        app:cardBackgroundColor="@color/colorPrimary"
         card_view:cardCornerRadius="6dp"
         card_view:cardElevation="10dp"
-        card_view:cardUseCompatPadding="true"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        card_view:cardUseCompatPadding="true">
 
         <LinearLayout
 
 
-            android:orientation="vertical"
-            android:layout_margin="3dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:orientation="vertical">
 
             <LinearLayout
-                android:orientation="vertical"
-
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
                 <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_margin="0.5dp"
                     card_view:cardCornerRadius="6dp"
                     card_view:cardElevation="10dp"
-                    card_view:cardUseCompatPadding="true"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    card_view:cardUseCompatPadding="true">
 
                     <LinearLayout
-                        android:orientation="horizontal"
-                        android:layout_margin="5dp"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
 
                         <TextView
                             android:id="@+id/tvName"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
-                            android:textStyle="bold"
-                            android:textSize="14sp"
-                            android:textColor="@color/azulDupree"
+                            android:text="erys yajayra guerrero soto"
                             android:textAllCaps="true"
-                            android:text="erys yajayra guerrero soto"/>
+                            android:textColor="@color/azulDupree"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
                     </LinearLayout>
 
                 </android.support.v7.widget.CardView>
@@ -67,113 +67,118 @@
             </LinearLayout>
 
             <LinearLayout
-                android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:orientation="horizontal"
                 android:weightSum="1">
 
                 <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
                     android:layout_margin="0.5dp"
+                    android:layout_weight="0.35"
                     card_view:cardCornerRadius="6dp"
                     card_view:cardElevation="10dp"
-                    card_view:cardUseCompatPadding="true"
-                    android:layout_weight="0.35"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content">
+                    card_view:cardUseCompatPadding="true">
 
                     <LinearLayout
-                        android:orientation="vertical"
-                        android:layout_margin="5dp"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="start"
-                            android:textStyle="normal"
-                            android:textSize="14sp"
+                            android:text="CAMPAÑA:"
                             android:textColor="@color/azulDupree"
-                            android:text="CAMPAÑA:"/>
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
 
                         <TextView
                             android:id="@+id/tvCamp"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
-                            android:textStyle="normal"
-                            android:textSize="14sp"
+                            android:text="201618"
                             android:textColor="@color/gray_6"
-                            android:text="201618"/>
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
                     </LinearLayout>
 
                 </android.support.v7.widget.CardView>
 
                 <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
                     android:layout_margin="0.5dp"
+                    android:layout_weight="0.35"
                     card_view:cardCornerRadius="6dp"
                     card_view:cardElevation="10dp"
-                    card_view:cardUseCompatPadding="true"
-                    android:layout_width="0dp"
-                    android:layout_weight="0.35"
-                    android:layout_height="match_parent">
+                    card_view:cardUseCompatPadding="true">
 
                     <LinearLayout
-                        android:orientation="vertical"
-                        android:layout_margin="5dp"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="start"
-                            android:textStyle="normal"
-                            android:textSize="14sp"
+                            android:text="CÉDULA:"
                             android:textColor="@color/azulDupree"
-                            android:text="CÉDULA:"/>
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+
                         <TextView
                             android:id="@+id/tvCedula"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
-                            android:textStyle="normal"
-                            android:textSize="14sp"
+                            android:text="1034569878"
                             android:textColor="@color/gray_6"
-                            android:text="1034569878"/>
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
                     </LinearLayout>
 
                 </android.support.v7.widget.CardView>
 
                 <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
                     android:layout_margin="0.5dp"
+                    android:layout_weight="0.3"
                     card_view:cardCornerRadius="6dp"
                     card_view:cardElevation="10dp"
-                    card_view:cardUseCompatPadding="true"
-                    android:layout_width="0dp"
-                    android:layout_weight="0.3"
-                    android:layout_height="match_parent">
+                    card_view:cardUseCompatPadding="true">
 
                     <LinearLayout
-                        android:orientation="vertical"
-                        android:layout_margin="5dp"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="start"
-                            android:textStyle="normal"
-                            android:textSize="14sp"
+                            android:text="SALDO:"
                             android:textColor="@color/azulDupree"
-                            android:text="SALDO:"/>
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+
                         <TextView
                             android:id="@+id/tvSakdo"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
-                            android:textStyle="normal"
-                            android:textSize="14sp"
+                            android:text="1"
                             android:textColor="@color/gray_6"
-                            android:text="1"/>
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
                     </LinearLayout>
 
                 </android.support.v7.widget.CardView>
@@ -181,43 +186,43 @@
             </LinearLayout>
 
             <LinearLayout
-                android:orientation="vertical"
-
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
                 <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_margin="0.5dp"
                     card_view:cardCornerRadius="6dp"
                     card_view:cardElevation="10dp"
-                    card_view:cardUseCompatPadding="true"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    card_view:cardUseCompatPadding="true">
 
                     <LinearLayout
-                        android:orientation="horizontal"
-                        android:layout_margin="5dp"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="start"
-                            android:textStyle="normal"
-                            android:textSize="14sp"
+                            android:text="OBSERV.: "
                             android:textColor="@color/azulDupree"
-                            android:text="OBSERV.: "/>
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
 
                         <TextView
                             android:id="@+id/tvObserv"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="start"
-                            android:textStyle="normal"
-                            android:textSize="14sp"
+                            android:text="VALIDACION FOLLETO NAVIDAD 2016-18"
                             android:textColor="@color/gray_6"
-                            android:text="VALIDACION FOLLETO NAVIDAD 2016-18"/>
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
                     </LinearLayout>
 
                 </android.support.v7.widget.CardView>

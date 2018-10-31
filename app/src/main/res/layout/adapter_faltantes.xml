@@ -13,129 +13,133 @@
     <android.support.v7.widget.CardView
 
         android:id="@+id/cardViewBackGround"
-        app:cardBackgroundColor="@color/transp_azulDupree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_margin="2.5dp"
+        app:cardBackgroundColor="@color/colorPrimary"
         card_view:cardCornerRadius="6dp"
         card_view:cardElevation="10dp"
-        card_view:cardUseCompatPadding="true"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        card_view:cardUseCompatPadding="true">
 
         <LinearLayout
-            android:orientation="horizontal"
-            android:layout_margin="3dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:orientation="horizontal"
             android:weightSum="1">
 
             <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:layout_margin="0.5dp"
+                android:layout_weight="0.2"
                 card_view:cardCornerRadius="6dp"
                 card_view:cardElevation="10dp"
-                card_view:cardUseCompatPadding="true"
-                android:layout_weight="0.2"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content">
+                card_view:cardUseCompatPadding="true">
 
                 <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_margin="5dp"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="start"
-                        android:textStyle="normal"
+                        android:text="CÓD.:"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused"
                         android:textSize="14sp"
-                        android:textColor="@color/azulDupree"
-                        android:text="CÓD.:"/>
+                        android:textStyle="normal" />
 
                     <TextView
                         android:id="@+id/tvCode"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
-                        android:textStyle="normal"
+                        android:text="201618"
+                        android:textColor="@color/gray_5"
                         android:textSize="14sp"
-                        android:textColor="@color/gray_6"
-                        android:text="201618"/>
+                        android:textStyle="normal" />
                 </LinearLayout>
 
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
+                android:layout_weight="0.6"
                 card_view:cardCornerRadius="6dp"
                 card_view:cardElevation="10dp"
-                card_view:cardUseCompatPadding="true"
-                android:layout_width="0dp"
-                android:layout_weight="0.6"
-                android:layout_height="match_parent">
+                card_view:cardUseCompatPadding="true">
 
                 <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_margin="5dp"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="start"
-                        android:textStyle="normal"
+                        android:text="PRODUCTO:"
+                        android:textColor="@color/common_google_signin_btn_text_dark_focused"
                         android:textSize="14sp"
-                        android:textColor="@color/azulDupree"
-                        android:text="PRODUCTO:"/>
+                        android:textStyle="normal" />
+
                     <TextView
                         android:id="@+id/tvName"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
-                        android:textStyle="normal"
+                        android:text="12/10/2016"
+                        android:textColor="@color/gray_5"
                         android:textSize="14sp"
-                        android:textColor="@color/gray_6"
-                        android:text="12/10/2016"/>
+                        android:textStyle="normal" />
                 </LinearLayout>
 
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
                 android:layout_margin="0.5dp"
+                android:layout_weight="0.2"
                 card_view:cardCornerRadius="6dp"
                 card_view:cardElevation="10dp"
-                card_view:cardUseCompatPadding="true"
-                android:layout_width="0dp"
-                android:layout_weight="0.2"
-                android:layout_height="match_parent">
+                card_view:cardUseCompatPadding="true">
 
                 <LinearLayout
-                    android:orientation="vertical"
-                    android:layout_margin="5dp"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="vertical">
+
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="start"
-                        android:textStyle="normal"
+                        android:text="PÁG.:"
+                        android:textColor="@color/common_google_signin_btn_text_light_pressed"
                         android:textSize="14sp"
-                        android:textColor="@color/azulDupree"
-                        android:text="PÁG.:"/>
+                        android:textStyle="normal" />
+
                     <TextView
                         android:id="@+id/tvPage"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center_horizontal"
-                        android:textStyle="normal"
+                        android:text="10"
+                        android:textColor="@color/gray_5"
                         android:textSize="14sp"
-                        android:textColor="@color/gray_6"
-                        android:text="10"/>
+                        android:textStyle="normal" />
                 </LinearLayout>
 
             </android.support.v7.widget.CardView>
 
         </LinearLayout>
-
 
 
     </android.support.v7.widget.CardView>

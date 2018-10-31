@@ -60,13 +60,14 @@
                 android:orientation="vertical"
                 android:gravity="center_vertical|center_horizontal"
                 android:padding="5dp">
+
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/profile_image"
                     android:layout_width="85dp"
                     android:layout_height="85dp"
                     android:src="@drawable/img_main_solicita_asesora"
-                    app:civ_border_width="5dp"
-                    app:civ_border_color="@color/azulDupree"/>
+                    app:civ_border_color="@color/colorPrimary"
+                    app:civ_border_width="5dp" />
             </LinearLayout>
 
             <LinearLayout
@@ -75,14 +76,15 @@
                 android:layout_width="0dp"
                 android:layout_weight="0.7"
                 android:layout_height="match_parent">
+
                 <TextView
                     android:id="@+id/tvNameAsesora"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textStyle="bold"
+                    android:text="Enorelis Perez"
+                    android:textColor="@color/black"
                     android:textSize="22sp"
-                    android:textColor="@color/azulDupree"
-                    android:text="Enorelis Perez"/>
+                    android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/tvSaldoAsesora"
@@ -109,10 +111,10 @@
                 android:id="@+id/tabsPanelAsesora"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:tabSelectedTextColor="@color/azulDupree"
                 android:background="@color/gray_2"
+                app:tabGravity="fill"
                 app:tabMode="fixed"
-                app:tabGravity="fill" />
+                app:tabSelectedTextColor="@color/colorPrimary" />
 
         </android.support.design.widget.AppBarLayout>
 

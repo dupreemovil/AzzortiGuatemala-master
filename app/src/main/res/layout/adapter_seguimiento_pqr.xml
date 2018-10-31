@@ -14,95 +14,98 @@
     <android.support.v7.widget.CardView
 
         android:id="@+id/cardViewBackGround"
-        app:cardBackgroundColor="@color/transp_azulDupree"
-
-        android:layout_margin="2.5dp"
-        card_view:cardCornerRadius="6dp"
-        card_view:cardElevation="10dp"
-        card_view:cardUseCompatPadding="true"
-
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+
+        android:layout_height="match_parent"
+        android:layout_margin="2.5dp"
+        app:cardBackgroundColor="@color/colorPrimary"
+        card_view:cardCornerRadius="6dp"
+
+        card_view:cardElevation="10dp"
+        card_view:cardUseCompatPadding="true">
 
         <LinearLayout
-            android:orientation="vertical"
-            android:padding="3dp"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="3dp">
 
             <LinearLayout
-                android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:orientation="horizontal"
                 android:weightSum="1">
 
                 <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
                     android:layout_margin="0.5dp"
+                    android:layout_weight="0.4"
                     card_view:cardCornerRadius="6dp"
                     card_view:cardElevation="10dp"
-                    card_view:cardUseCompatPadding="true"
-                    android:layout_weight="0.4"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content">
+                    card_view:cardUseCompatPadding="true">
 
                     <LinearLayout
-                        android:orientation="vertical"
-                        android:layout_margin="5dp"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="start"
-                            android:textStyle="normal"
-                            android:textSize="14sp"
+                            android:text="CASO:"
                             android:textColor="@color/azulDupree"
-                            android:text="CASO:"/>
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
 
                         <TextView
                             android:id="@+id/tvCaso"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
-                            android:textStyle="normal"
-                            android:textSize="14sp"
+                            android:text="16201732"
                             android:textColor="@color/gray_6"
-                            android:text="16201732"/>
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
                     </LinearLayout>
 
                 </android.support.v7.widget.CardView>
 
                 <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
                     android:layout_margin="0.5dp"
+                    android:layout_weight="0.6"
                     card_view:cardCornerRadius="6dp"
                     card_view:cardElevation="10dp"
-                    card_view:cardUseCompatPadding="true"
-                    android:layout_width="0dp"
-                    android:layout_weight="0.6"
-                    android:layout_height="match_parent">
+                    card_view:cardUseCompatPadding="true">
 
                     <LinearLayout
-                        android:orientation="vertical"
-                        android:layout_margin="5dp"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="start"
-                            android:textStyle="normal"
-                            android:textSize="14sp"
+                            android:text="FECHA:"
                             android:textColor="@color/azulDupree"
-                            android:text="FECHA:"/>
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+
                         <TextView
                             android:id="@+id/tvfecha"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
-                            android:textStyle="normal"
-                            android:textSize="14sp"
+                            android:text="12/10/2016"
                             android:textColor="@color/gray_6"
-                            android:text="12/10/2016"/>
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
                     </LinearLayout>
 
                 </android.support.v7.widget.CardView>
@@ -110,78 +113,81 @@
             </LinearLayout>
 
             <LinearLayout
-                android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:orientation="horizontal"
                 android:weightSum="1">
 
                 <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
                     android:layout_margin="0.5dp"
+                    android:layout_weight="0.5"
                     card_view:cardCornerRadius="6dp"
                     card_view:cardElevation="10dp"
-                    card_view:cardUseCompatPadding="true"
-                    android:layout_weight="0.5"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content">
+                    card_view:cardUseCompatPadding="true">
 
                     <LinearLayout
-                        android:orientation="vertical"
-                        android:layout_margin="5dp"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="start"
-                            android:textStyle="normal"
-                            android:textSize="14sp"
+                            android:text="GESTIÓN: "
                             android:textColor="@color/azulDupree"
-                            android:text="GESTIÓN: "/>
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
 
                         <TextView
                             android:id="@+id/tvGestion"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
-                            android:textStyle="normal"
-                            android:textSize="14sp"
+                            android:text="GESTION ADICIONAL"
                             android:textColor="@color/gray_6"
-                            android:text="GESTION ADICIONAL"/>
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
                     </LinearLayout>
 
                 </android.support.v7.widget.CardView>
 
                 <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
                     android:layout_margin="0.5dp"
+                    android:layout_weight="0.5"
                     card_view:cardCornerRadius="6dp"
                     card_view:cardElevation="10dp"
-                    card_view:cardUseCompatPadding="true"
-                    android:layout_width="0dp"
-                    android:layout_weight="0.5"
-                    android:layout_height="match_parent">
+                    card_view:cardUseCompatPadding="true">
 
                     <LinearLayout
-                        android:orientation="vertical"
-                        android:layout_margin="5dp"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical">
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="start"
-                            android:textStyle="normal"
-                            android:textSize="14sp"
+                            android:text="RAZÓN: "
                             android:textColor="@color/azulDupree"
-                            android:text="RAZÓN: "/>
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+
                         <TextView
                             android:id="@+id/tvRazon"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="center_horizontal"
-                            android:textStyle="normal"
-                            android:textSize="14sp"
+                            android:text="GESTION ADICIONAL"
                             android:textColor="@color/gray_6"
-                            android:text="GESTION ADICIONAL"/>
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
                     </LinearLayout>
 
                 </android.support.v7.widget.CardView>
@@ -189,44 +195,45 @@
             </LinearLayout>
 
             <LinearLayout
-                android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:orientation="horizontal"
                 android:weightSum="1">
 
                 <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
                     android:layout_margin="0.5dp"
+                    android:layout_weight="1"
                     card_view:cardCornerRadius="6dp"
                     card_view:cardElevation="10dp"
-                    card_view:cardUseCompatPadding="true"
-                    android:layout_weight="1"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content">
+                    card_view:cardUseCompatPadding="true">
 
                     <LinearLayout
-                        android:orientation="horizontal"
-                        android:layout_margin="5dp"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="start"
-                            android:textStyle="normal"
-                            android:textSize="14sp"
+                            android:text="USUARIO: "
                             android:textColor="@color/azulDupree"
-                            android:text="USUARIO: "/>
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
 
                         <TextView
                             android:id="@+id/tvUsuario"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="fill_horizontal"
-                            android:textStyle="normal"
-                            android:textSize="14sp"
-                            android:textColor="@color/gray_6"
+                            android:text="Jacqueline Dominguez"
                             android:textAllCaps="true"
-                            android:text="Jacqueline Dominguez"/>
+                            android:textColor="@color/gray_6"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
                     </LinearLayout>
 
                 </android.support.v7.widget.CardView>
@@ -235,44 +242,45 @@
 
 
             <LinearLayout
-                android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:orientation="horizontal"
                 android:weightSum="1">
 
                 <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
                     android:layout_margin="0.5dp"
+                    android:layout_weight="1"
                     card_view:cardCornerRadius="6dp"
                     card_view:cardElevation="10dp"
-                    card_view:cardUseCompatPadding="true"
-                    android:layout_weight="1"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content">
+                    card_view:cardUseCompatPadding="true">
 
                     <LinearLayout
-                        android:orientation="horizontal"
-                        android:layout_margin="5dp"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="start"
-                            android:textStyle="normal"
-                            android:textSize="14sp"
+                            android:text="DESCRIPCION: "
                             android:textColor="@color/azulDupree"
-                            android:text="DESCRIPCION: "/>
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
 
                         <TextView
                             android:id="@+id/tvDescripcion"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:gravity="fill_horizontal"
-                            android:textStyle="normal"
-                            android:textSize="14sp"
-                            android:textColor="@color/gray_6"
+                            android:text="hola como estas esto paso por tal y cual motivo y para resolverlo se decidio hacer estoy y lo otro a fin de garantizar un buen trabajo."
                             android:textAllCaps="true"
-                            android:text="hola como estas esto paso por tal y cual motivo y para resolverlo se decidio hacer estoy y lo otro a fin de garantizar un buen trabajo."/>
+                            android:textColor="@color/gray_6"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
                     </LinearLayout>
 
                 </android.support.v7.widget.CardView>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008bfc</color>
+    <color name="colorPrimary">#fbe256</color>
     <color name="colorPrimaryDark">#3F51B5</color>
     <color name="colorAccent">#FF4081</color>
 
 
-    <color name="azulDupree">#008bfc</color>
+    <color name="azulDupree">#000000</color>
     <color name="azulDupree4">#64B5F6</color>
     <color name="azulDupree3">#BBDEFB</color>
-    <color name="transp_azulDupree">#8c008bfc</color>
+    <color name="transp_azulDupree">#c7fbf200</color>
 
     <color name="transp_azulDupree_chat">#1c008bfc</color>
 
@@ -27,11 +27,11 @@
     <color name="gray_2">#F5F5F5</color>
     <color name="gray_3">#EEEEEE</color>
     <color name="gray_4">#E0E0E0</color>
-    <color name="gray_5">#9E9E9E</color>
-    <color name="gray_6">#616161</color>
+    <color name="gray_5">#ca817f7f</color>
+    <color name="gray_6">#cc817f7f</color>
 
 
-    <color name="black">#000000</color>
+    <color name="black">#9f000000</color>
     <color name="transparent_black">#AF000000</color>
 
     <color name="transparent">#00000000</color>
@@ -78,7 +78,7 @@
     <color name="transparent_black_80">#CC000000</color>
     <color name="transparent_black_85">#D9000000</color>
     <color name="transparent_black_90">#E6000000</color>
-    <color name="transparent_black_95">#F2000000</color>
+    <color name="transparent_black_95">#f2000000</color>
 
 
 </resources>

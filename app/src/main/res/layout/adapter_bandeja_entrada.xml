@@ -39,15 +39,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/rounded_background_chat_receive_top_blue">
+
                 <TextView
                     android:id="@+id/txtvDate"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="14/04/2017 20:31"
-                    android:textSize="12sp"
                     android:textAllCaps="true"
-                    android:textStyle="bold"
-                    android:textColor="@color/azulDupree"/>
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
             </LinearLayout>
             <LinearLayout
 

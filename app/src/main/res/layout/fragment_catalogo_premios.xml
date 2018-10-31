@@ -9,7 +9,10 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <include android:id="@+id/AppBarL_FragCatgP" layout="@layout/mh_toolbar_activity"/>
+
+        <include
+            android:id="@+id/AppBarL_FragCatgP"
+            layout="@layout/mh_toolbar_activity" />
 
         <ProgressBar
             android:id="@+id/progress"

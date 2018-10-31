@@ -24,21 +24,21 @@
                 android:src="@drawable/logodupree"/>
 
             <TextView
-                android:layout_marginTop="8dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/modificar_perfil"
                 android:textAlignment="center"
-                android:textStyle="bold"
-                android:textColor="@color/azulDupree"
-                android:text="@string/modificar_perfil"/>
+                android:textColor="@color/black"
+                android:textStyle="bold" />
 
             <TextView
-                android:layout_marginTop="24dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:textColor="@color/azulDupree"
-                android:text="@string/datos_personales"/>
+                android:layout_marginTop="24dp"
+                android:text="@string/datos_personales"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
 
             <android.support.design.widget.TextInputLayout
                 android:layout_marginTop="8dp"
@@ -68,13 +68,13 @@
             </android.support.design.widget.TextInputLayout>
 
             <TextView
-                android:layout_marginTop="24dp"
-                android:layout_marginBottom="8dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textStyle="bold"
-                android:textColor="@color/azulDupree"
-                android:text="@string/contacto"/>
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="8dp"
+                android:text="@string/contacto"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
 
             <android.support.design.widget.TextInputLayout
                 android:layout_marginTop="8dp"
@@ -135,13 +135,13 @@
                 <Button
                     android:id="@+id/btnEditPerfil"
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="32dp"
                     android:layout_marginEnd="32dp"
-                    android:background="@drawable/rounded_background_blue"
-                    android:textColor="@color/white"
-                    android:text="@string/enviar"/>
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:text="@string/enviar"
+                    android:textColor="@color/black" />
             </LinearLayout>
 
         </LinearLayout>

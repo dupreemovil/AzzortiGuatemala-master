@@ -63,7 +63,7 @@
                         android:layout_height="match_parent"
                         android:layout_margin="5dp"
                         android:layout_weight="0.50"
-                        card_view:cardBackgroundColor="@color/colorPrimaryDark"
+                        card_view:cardBackgroundColor="@color/transp_azulDupree"
                         card_view:cardCornerRadius="10dp"
                         card_view:cardElevation="5dp">
 
@@ -82,7 +82,7 @@
                             android:padding="5dp"
                             android:text="@string/vuelvete_asesora"
                             android:textAlignment="center"
-                            android:textColor="@color/gray_2"
+                            android:textColor="@color/black"
                             android:textSize="18sp"
                             android:textStyle="bold" />
                     </android.support.v7.widget.CardView>
@@ -111,7 +111,7 @@
                             android:padding="5dp"
                             android:text="@string/servicio_al_cliente"
                             android:textAlignment="center"
-                            android:textColor="@color/gray_2"
+                            android:textColor="@color/black"
                             android:textSize="18sp"
                             android:textStyle="bold" />
                     </android.support.v7.widget.CardView>
@@ -149,7 +149,7 @@
                             android:padding="5dp"
                             android:text="@string/catalogos"
                             android:textAlignment="center"
-                            android:textColor="@color/gray_2"
+                            android:textColor="@color/black"
                             android:textSize="18sp"
                             android:textStyle="bold" />
                     </android.support.v7.widget.CardView>
@@ -178,7 +178,7 @@
                             android:padding="5dp"
                             android:text="@string/iniciar_sesion"
                             android:textAlignment="center"
-                            android:textColor="@color/gray_2"
+                            android:textColor="@color/black"
                             android:textSize="18sp"
                             android:textStyle="bold" />
                     </android.support.v7.widget.CardView>

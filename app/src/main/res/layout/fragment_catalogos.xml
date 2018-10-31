@@ -10,15 +10,17 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <include android:id="@+id/AppBarL_FragCatg" layout="@layout/mh_toolbar_activity"/>
+        <include
+            android:id="@+id/AppBarL_FragCatg"
+            layout="@layout/mh_toolbar_activity" />
 
         <ProgressBar
             android:id="@+id/progress"
             style="@style/Widget.AppCompat.ProgressBar.Horizontal"
-            android:layout_marginTop="2dp"
-            android:layout_below="@+id/btn_download"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_download"
+            android:layout_marginTop="2dp" />
 
         <LinearLayout
             android:layout_width="match_parent"

@@ -12,551 +12,586 @@
     <android.support.v7.widget.CardView
 
         android:id="@+id/cardViewBackGround"
-        app:cardBackgroundColor="@color/transp_azulDupree"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:layout_margin="2.5dp"
+        app:cardBackgroundColor="@color/colorPrimary"
         card_view:cardCornerRadius="6dp"
         card_view:cardElevation="10dp"
-        card_view:cardUseCompatPadding="true"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        card_view:cardUseCompatPadding="true">
 
         <LinearLayout
-            android:orientation="vertical"
-            android:layout_margin="3dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:orientation="vertical">
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
+
                 <android.support.v7.widget.CardView
 
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:layout_margin="0.5dp"
                     card_view:cardCornerRadius="6dp"
-                    card_view:cardElevation="10dp"
-                    card_view:cardUseCompatPadding="true"
 
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
 
                     <LinearLayout
-                        android:orientation="horizontal"
-                        android:layout_margin="5dp"
-                        android:weightSum="1"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
 
                         <TextView
-                            android:layout_weight="0.5"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
                             android:gravity="start"
-                            android:textStyle="normal"
-                            android:textSize="14sp"
+                            android:text="CAMPAÑA: "
                             android:textColor="@color/azulDupree"
-                            android:text="CAMPAÑA: "/>
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
 
                         <TextView
                             android:id="@+id/tvCamp"
-                            android:layout_weight="0.5"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
+                            android:layout_weight="0.5"
                             android:gravity="center_horizontal"
-                            android:textStyle="normal"
+                            android:text="201709"
 
-                            android:textSize="14sp"
                             android:textColor="@color/gray_6"
-                            android:text="201709"/>
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
                     </LinearLayout>
 
 
                 </android.support.v7.widget.CardView>
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-                    <android.support.v7.widget.CardView
-                        android:layout_margin="0.5dp"
-                        card_view:cardCornerRadius="6dp"
-                        card_view:cardElevation="10dp"
-                        card_view:cardUseCompatPadding="true"
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.5dp"
+                    card_view:cardCornerRadius="6dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
 
-                        <LinearLayout
-                            android:orientation="horizontal"
-                            android:layout_margin="5dp"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-                            <TextView
-                                android:layout_weight="0.5"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:gravity="start"
-                                android:textStyle="normal"
-                                android:textSize="13sp"
-                                android:textColor="@color/azulDupree"
-                                android:text="PEDIDO:"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="start"
+                            android:text="PEDIDO:"
+                            android:textColor="@color/azulDupree"
+                            android:textSize="13sp"
+                            android:textStyle="normal" />
 
-                            <TextView
-                                android:id="@+id/tvPedido"
-                                android:layout_weight="0.5"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:gravity="center_horizontal"
-                                android:textStyle="normal"
-                                android:textSize="14sp"
-                                android:textColor="@color/gray_6"
-                                android:text="234"/>
-                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/tvPedido"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="center_horizontal"
+                            android:text="234"
+                            android:textColor="@color/gray_6"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
 
-                    </android.support.v7.widget.CardView>
+                </android.support.v7.widget.CardView>
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-                    <android.support.v7.widget.CardView
-                        android:layout_margin="0.5dp"
-                        card_view:cardCornerRadius="6dp"
-                        card_view:cardElevation="10dp"
-                        card_view:cardUseCompatPadding="true"
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="0.5dp"
+                    card_view:cardCornerRadius="6dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
 
-                        <LinearLayout
-                            android:orientation="horizontal"
-                            android:layout_margin="5dp"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-                            <TextView
-                                android:layout_weight="0.5"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:gravity="start"
-                                android:textStyle="normal"
-                                android:textSize="13sp"
-                                android:textColor="@color/azulDupree"
-                                android:text="REFERIDOS:"/>
-                            <TextView
-                                android:id="@+id/tvReferidos"
-                                android:layout_weight="0.5"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:gravity="center_horizontal"
-                                android:textStyle="normal"
-                                android:textSize="14sp"
-                                android:textColor="@color/gray_6"
-                                android:text="0"/>
-                        </LinearLayout>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="start"
+                            android:text="REFERIDOS:"
+                            android:textColor="@color/azulDupree"
+                            android:textSize="13sp"
+                            android:textStyle="normal" />
 
-                    </android.support.v7.widget.CardView>
+                        <TextView
+                            android:id="@+id/tvReferidos"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="center_horizontal"
+                            android:text="0"
+                            android:textColor="@color/gray_6"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                    <android.support.v7.widget.CardView
-                        android:layout_margin="0.5dp"
-                        card_view:cardCornerRadius="6dp"
-                        card_view:cardElevation="10dp"
-                        card_view:cardUseCompatPadding="true"
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="0.5dp"
+                    card_view:cardCornerRadius="6dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
 
-                        <LinearLayout
-                            android:orientation="horizontal"
-                            android:layout_margin="5dp"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-                            <TextView
-                                android:layout_weight="0.5"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:gravity="start"
-                                android:textStyle="normal"
-                                android:textSize="13sp"
-                                android:textColor="@color/azulDupree"
-                                android:text="PTS. REFERIDO:"/>
-                            <TextView
-                                android:id="@+id/tvPtsReferido"
-                                android:layout_weight="0.5"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:gravity="center_horizontal"
-                                android:textStyle="normal"
-                                android:textSize="14sp"
-                                android:textColor="@color/gray_6"
-                                android:text="0"/>
-                        </LinearLayout>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="start"
+                            android:text="PTS. REFERIDO:"
+                            android:textColor="@color/azulDupree"
+                            android:textSize="13sp"
+                            android:textStyle="normal" />
 
-                    </android.support.v7.widget.CardView>
+                        <TextView
+                            android:id="@+id/tvPtsReferido"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="center_horizontal"
+                            android:text="0"
+                            android:textColor="@color/gray_6"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                    <android.support.v7.widget.CardView
-                        android:layout_margin="0.5dp"
-                        card_view:cardCornerRadius="6dp"
-                        card_view:cardElevation="10dp"
-                        card_view:cardUseCompatPadding="true"
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="0.5dp"
+                    card_view:cardCornerRadius="6dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
 
-                        <LinearLayout
-                            android:orientation="horizontal"
-                            android:layout_margin="5dp"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-                            <TextView
-                                android:layout_weight="0.5"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:gravity="start"
-                                android:textStyle="normal"
-                                android:textSize="13sp"
-                                android:textColor="@color/azulDupree"
-                                android:text="TOTAL:"/>
-                            <TextView
-                                android:id="@+id/tvTotal"
-                                android:layout_weight="0.5"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:gravity="center_horizontal"
-                                android:textStyle="normal"
-                                android:textSize="14sp"
-                                android:textColor="@color/gray_6"
-                                android:text="234"/>
-                        </LinearLayout>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="start"
+                            android:text="TOTAL:"
+                            android:textColor="@color/azulDupree"
+                            android:textSize="13sp"
+                            android:textStyle="normal" />
 
-                    </android.support.v7.widget.CardView>
+                        <TextView
+                            android:id="@+id/tvTotal"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="center_horizontal"
+                            android:text="234"
+                            android:textColor="@color/gray_6"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                    <android.support.v7.widget.CardView
-                        android:layout_margin="0.5dp"
-                        card_view:cardCornerRadius="6dp"
-                        card_view:cardElevation="10dp"
-                        card_view:cardUseCompatPadding="true"
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.5dp"
+                    card_view:cardCornerRadius="6dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
 
-                        <LinearLayout
-                            android:orientation="horizontal"
-                            android:layout_margin="5dp"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-                            <TextView
-                                android:layout_weight="0.5"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:gravity="start"
-                                android:textStyle="normal"
-                                android:textSize="13sp"
-                                android:textColor="@color/azulDupree"
-                                android:text="DEVOLUCION:"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="start"
+                            android:text="DEVOLUCION:"
+                            android:textColor="@color/azulDupree"
+                            android:textSize="13sp"
+                            android:textStyle="normal" />
 
-                            <TextView
-                                android:id="@+id/tvDevolucion"
-                                android:layout_weight="0.5"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:gravity="center_horizontal"
-                                android:textStyle="normal"
-                                android:textSize="14sp"
-                                android:textColor="@color/gray_6"
-                                android:text="0"/>
-                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/tvDevolucion"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="center_horizontal"
+                            android:text="0"
+                            android:textColor="@color/gray_6"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
 
-                    </android.support.v7.widget.CardView>
+                </android.support.v7.widget.CardView>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                    <android.support.v7.widget.CardView
-                        android:layout_margin="0.5dp"
-                        card_view:cardCornerRadius="6dp"
-                        card_view:cardElevation="10dp"
-                        card_view:cardUseCompatPadding="true"
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="0.5dp"
+                    card_view:cardCornerRadius="6dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
 
-                        <LinearLayout
-                            android:orientation="horizontal"
-                            android:layout_margin="5dp"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-                            <TextView
-                                android:layout_weight="0.5"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:gravity="start"
-                                android:textStyle="normal"
-                                android:textSize="13sp"
-                                android:textColor="@color/azulDupree"
-                                android:text="CARTERA:"/>
-                            <TextView
-                                android:id="@+id/tvCartera"
-                                android:layout_weight="0.5"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:gravity="center_horizontal"
-                                android:textStyle="normal"
-                                android:textSize="14sp"
-                                android:textColor="@color/gray_6"
-                                android:text="0"/>
-                        </LinearLayout>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="start"
+                            android:text="CARTERA:"
+                            android:textColor="@color/azulDupree"
+                            android:textSize="13sp"
+                            android:textStyle="normal" />
 
-                    </android.support.v7.widget.CardView>
+                        <TextView
+                            android:id="@+id/tvCartera"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="center_horizontal"
+                            android:text="0"
+                            android:textColor="@color/gray_6"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                    <android.support.v7.widget.CardView
-                        android:layout_margin="0.5dp"
-                        card_view:cardCornerRadius="6dp"
-                        card_view:cardElevation="10dp"
-                        card_view:cardUseCompatPadding="true"
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="0.5dp"
+                    card_view:cardCornerRadius="6dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
 
-                        <LinearLayout
-                            android:orientation="horizontal"
-                            android:layout_margin="5dp"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-                            <TextView
-                                android:layout_weight="0.5"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:gravity="start"
-                                android:textStyle="normal"
-                                android:textSize="13sp"
-                                android:textColor="@color/azulDupree"
-                                android:text="INACTIVIDAD:"/>
-                            <TextView
-                                android:id="@+id/tvInactividad"
-                                android:layout_weight="0.5"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:gravity="center_horizontal"
-                                android:textStyle="normal"
-                                android:textSize="14sp"
-                                android:textColor="@color/gray_6"
-                                android:text="0"/>
-                        </LinearLayout>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="start"
+                            android:text="INACTIVIDAD:"
+                            android:textColor="@color/azulDupree"
+                            android:textSize="13sp"
+                            android:textStyle="normal" />
 
-                    </android.support.v7.widget.CardView>
+                        <TextView
+                            android:id="@+id/tvInactividad"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="center_horizontal"
+                            android:text="0"
+                            android:textColor="@color/gray_6"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                    <android.support.v7.widget.CardView
-                        android:layout_margin="0.5dp"
-                        card_view:cardCornerRadius="6dp"
-                        card_view:cardElevation="10dp"
-                        card_view:cardUseCompatPadding="true"
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="0.5dp"
+                    card_view:cardCornerRadius="6dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
 
-                        <LinearLayout
-                            android:orientation="horizontal"
-                            android:layout_margin="5dp"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-                            <TextView
-                                android:layout_weight="0.5"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:gravity="start"
-                                android:textStyle="normal"
-                                android:textSize="13sp"
-                                android:textColor="@color/azulDupree"
-                                android:text="PERDIDOS:"/>
-                            <TextView
-                                android:id="@+id/tvPerdidos"
-                                android:layout_weight="0.5"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:gravity="center_horizontal"
-                                android:textStyle="normal"
-                                android:textSize="14sp"
-                                android:textColor="@color/gray_6"
-                                android:text="0"/>
-                        </LinearLayout>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="start"
+                            android:text="PERDIDOS:"
+                            android:textColor="@color/azulDupree"
+                            android:textSize="13sp"
+                            android:textStyle="normal" />
 
-                    </android.support.v7.widget.CardView>
+                        <TextView
+                            android:id="@+id/tvPerdidos"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="center_horizontal"
+                            android:text="0"
+                            android:textColor="@color/gray_6"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                    <android.support.v7.widget.CardView
-                        android:layout_margin="0.5dp"
-                        card_view:cardCornerRadius="6dp"
-                        card_view:cardElevation="10dp"
-                        card_view:cardUseCompatPadding="true"
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.5dp"
+                    card_view:cardCornerRadius="6dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
 
-                        <LinearLayout
-                            android:orientation="horizontal"
-                            android:layout_margin="5dp"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-                            <TextView
-                                android:layout_weight="0.5"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:gravity="start"
-                                android:textStyle="normal"
-                                android:textSize="14sp"
-                                android:textColor="@color/azulDupree"
-                                android:text="ADICIONALES:"/>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="start"
+                            android:text="ADICIONALES:"
+                            android:textColor="@color/azulDupree"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
 
-                            <TextView
-                                android:id="@+id/tvAdicionales"
-                                android:layout_weight="0.5"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:gravity="center_horizontal"
-                                android:textStyle="normal"
-                                android:textSize="14sp"
-                                android:textColor="@color/gray_6"
-                                android:text="0"/>
-                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/tvAdicionales"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="center_horizontal"
+                            android:text="0"
+                            android:textColor="@color/gray_6"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
 
-                    </android.support.v7.widget.CardView>
+                </android.support.v7.widget.CardView>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                    <android.support.v7.widget.CardView
-                        android:layout_margin="0.5dp"
-                        card_view:cardCornerRadius="6dp"
-                        card_view:cardElevation="10dp"
-                        card_view:cardUseCompatPadding="true"
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="0.5dp"
+                    card_view:cardCornerRadius="6dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
 
-                        <LinearLayout
-                            android:orientation="horizontal"
-                            android:layout_margin="5dp"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-                            <TextView
-                                android:layout_weight="0.5"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:gravity="start"
-                                android:textStyle="normal"
-                                android:textSize="14sp"
-                                android:textColor="@color/azulDupree"
-                                android:text="EFECTIVOS:"/>
-                            <TextView
-                                android:id="@+id/tvEfectivos"
-                                android:layout_weight="0.5"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:gravity="center_horizontal"
-                                android:textStyle="normal"
-                                android:textSize="14sp"
-                                android:textColor="@color/gray_6"
-                                android:text="D"/>
-                        </LinearLayout>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="start"
+                            android:text="EFECTIVOS:"
+                            android:textColor="@color/azulDupree"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
 
-                    </android.support.v7.widget.CardView>
+                        <TextView
+                            android:id="@+id/tvEfectivos"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="center_horizontal"
+                            android:text="D"
+                            android:textColor="@color/gray_6"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                    <android.support.v7.widget.CardView
-                        android:layout_margin="0.5dp"
-                        card_view:cardCornerRadius="6dp"
-                        card_view:cardElevation="10dp"
-                        card_view:cardUseCompatPadding="true"
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="0.5dp"
+                    card_view:cardCornerRadius="6dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
 
-                        <LinearLayout
-                            android:orientation="horizontal"
-                            android:layout_margin="5dp"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-                            <TextView
-                                android:layout_weight="0.5"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:gravity="start"
-                                android:textStyle="normal"
-                                android:textSize="14sp"
-                                android:textColor="@color/azulDupree"
-                                android:text="REDIMIDOS:"/>
-                            <TextView
-                                android:id="@+id/tvRedimidos"
-                                android:layout_weight="0.5"
-                                android:layout_width="0dp"
-                                android:layout_height="wrap_content"
-                                android:gravity="center_horizontal"
-                                android:textStyle="normal"
-                                android:textSize="14sp"
-                                android:textColor="@color/gray_6"
-                                android:text="1.0000"/>
-                        </LinearLayout>
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="start"
+                            android:text="REDIMIDOS:"
+                            android:textColor="@color/azulDupree"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
 
-                    </android.support.v7.widget.CardView>
+                        <TextView
+                            android:id="@+id/tvRedimidos"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.5"
+                            android:gravity="center_horizontal"
+                            android:text="1.0000"
+                            android:textColor="@color/gray_6"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
             </LinearLayout>
+
             <LinearLayout
-                android:weightSum="1"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:weightSum="1">
 
-                    <android.support.v7.widget.CardView
-                        android:layout_margin="0.5dp"
-                        card_view:cardCornerRadius="6dp"
-                        card_view:cardElevation="10dp"
-                        card_view:cardUseCompatPadding="true"
+                <android.support.v7.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="0.5dp"
+                    android:layout_weight="0.5"
 
-                        android:layout_weight="0.5"
-                        android:layout_width="0dp"
-                        android:layout_height="wrap_content">
+                    card_view:cardCornerRadius="6dp"
+                    card_view:cardElevation="10dp"
+                    card_view:cardUseCompatPadding="true">
 
-                        <LinearLayout
-                            android:orientation="horizontal"
-                            android:layout_margin="5dp"
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
 
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
+                        android:layout_margin="5dp"
+                        android:orientation="horizontal">
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:gravity="start"
-                                android:textStyle="normal"
-                                android:textSize="14sp"
-                                android:textColor="@color/azulDupree"
-                                android:text="PAGO: "/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="start"
+                            android:text="PAGO: "
+                            android:textColor="@color/azulDupree"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
 
-                            <TextView
-                                android:id="@+id/tvPago"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:gravity="start"
-                                android:textStyle="normal"
-                                android:textSize="14sp"
-                                android:textColor="@color/gray_6"
-                                android:text="OK"/>
-                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/tvPago"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="start"
+                            android:text="OK"
+                            android:textColor="@color/gray_6"
+                            android:textSize="14sp"
+                            android:textStyle="normal" />
+                    </LinearLayout>
 
-                    </android.support.v7.widget.CardView>
+                </android.support.v7.widget.CardView>
             </LinearLayout>
         </LinearLayout>
     </android.support.v7.widget.CardView>
