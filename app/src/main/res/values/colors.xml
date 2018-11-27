@@ -2,10 +2,10 @@
 <resources>
     <color name="colorPrimary">#fbe256</color>
     <color name="colorPrimaryDark">#3F51B5</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#696868</color>
 
 
-    <color name="azulDupree">#000000</color>
+    <color name="azulDupree">#a7000000</color>
     <color name="azulDupree4">#64B5F6</color>
     <color name="azulDupree3">#BBDEFB</color>
     <color name="transp_azulDupree">#c7fbf200</color>
@@ -16,7 +16,7 @@
     <color name="azulDupree2">#396BA2</color>
     <color name="transp_PrimaryDark">#8c3F51B5</color>
 
-    <color name="transp_Accent">#8cFF4081</color>
+    <color name="transp_Accent">#8c616161</color>
     <color name="transp_Accent_chat">#1cFF4081</color>
 
     <color name="white">#ffffff</color>

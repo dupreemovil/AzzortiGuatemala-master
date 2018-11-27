@@ -37,10 +37,10 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:gravity="start"
-                            android:textStyle="normal"
+                            android:text="VOLANTE: "
+                            android:textColor="@color/black"
                             android:textSize="14sp"
-                            android:textColor="@color/azulDupree"
-                            android:text="VOLANTE: "/>
+                            android:textStyle="normal" />
 
                         <TextView
                             android:id="@+id/tvAsesoraVolante"
